@@ -6,4 +6,6 @@
   <string name="history">History</string>
   <string name="finish">Finish</string>
   <string name="summery">Summery</string>
+  <string name="game_summery">Game Summery</string>
+  <string name="play_history">Play History</string>
 </resources>

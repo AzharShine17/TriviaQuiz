@@ -33,7 +33,7 @@ class QuizMainContainerActivity :
 
   override fun getToolbar(): CustomToolbar? {
     when (type) {
-      FragmentType.HOME_FRAGMENT -> {
+      FragmentType.HOME_FRAGMENT,FragmentType.HISTORY_FRAGMENT,FragmentType.SUMMERY_FRAGMENT -> {
         binding?.appBarLayout?.toolbar?.visibility = View.GONE
       }
       else ->  binding?.appBarLayout?.toolbar

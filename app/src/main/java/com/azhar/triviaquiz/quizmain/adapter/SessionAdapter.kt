@@ -23,8 +23,8 @@ class SessionAdapter(private var quizList: List<QuizModel>) :
   }
 
   override fun onBindViewHolder(holder: SessionHolder, position: Int) {
-   holder.answerMtv.text = "${quizList[position].userResponse}"
-   holder.questionMtv.text = "${quizList[position].question}"
+   holder.answerMtv.text = "Answer :${quizList[position].userResponse}"
+   holder.questionMtv.text = "Question :${quizList[position].question}"
   }
 
   override fun getItemCount(): Int {

@@ -25,9 +25,9 @@ class HistoryAdapter(private var quizList: List<QuizModel>) :
   }
 
   override fun onBindViewHolder(holder: HistoryHolder, position: Int) {
-    holder.answerMtv.text = "${quizList[position].answers}"
-    holder.questionMtv.text = "${quizList[position].question}"
-    holder.dateTimeMtv.text = "${parseDate(quizList[position].currentDateTime.toString(),FORMAT)}"
+    holder.answerMtv.text = "Answer :${quizList[position].answers}"
+    holder.questionMtv.text = "Question: ${quizList[position].question}"
+    holder.dateTimeMtv.text = "Time :${parseDate(quizList[position].currentDateTime.toString(),FORMAT)}"
   }
 
   override fun getItemCount(): Int {
