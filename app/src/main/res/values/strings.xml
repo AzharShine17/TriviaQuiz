@@ -1,0 +1,9 @@
+<resources>
+  <string name="app_name">Trivia App</string>
+  <string name="made_with_nin_india">Made with ❤\nIn India</string>
+  <string name="enter_your_name">Enter your name</string>
+  <string name="next">Next</string>
+  <string name="history">History</string>
+  <string name="finish">Finish</string>
+  <string name="summery">Summery</string>
+</resources>
