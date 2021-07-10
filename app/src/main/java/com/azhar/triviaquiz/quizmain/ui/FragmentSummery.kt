@@ -35,7 +35,7 @@ class FragmentSummery : AppBaseFragment<FragmentSummeryBinding, QuizViewModel>()
 
   private fun setView() {
     binding?.tvTitle?.text =
-      "Hello ${QuizModel.Session.playerName}\n\n Here are the answers selected:"
+      "Hello ${QuizModel.Session.playerName}\n Here are the answers selected:\n"
     viewModel?.sessionMutableLiveData()?.observe(viewLifecycleOwner, {
       setupRecyclerView(it)
     })
